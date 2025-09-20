@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #654caf;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #f1f1f1;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form  {
+  width: 45%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input {
+  border: 1;
+  border-color: #654caf;
+  padding: 5px;
+  width: 70%;
+  margin-top: 4px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #654caf;
+  border: none;
+  color: white;
+  width: 30%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background: linear-gradient(blue , rgb(168, 168, 168) );
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
