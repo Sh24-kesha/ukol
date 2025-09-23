@@ -30,3 +30,16 @@ body {
     border-color: transparent;
   }
 }
+
+@media (max-width: 768px){
+  .typing-background{
+    padding: 0;
+    width: 250px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: fit-content;
+
+  }
+}
