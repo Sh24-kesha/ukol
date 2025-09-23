@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #000000;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+.typing-background {
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+#typing-text {
+  display: inline-block;
+  border-right: 2px solid white;
+  animation: blink 0.5s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
