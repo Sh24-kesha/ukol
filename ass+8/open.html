@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UKOL | main ~ </title>
+  <link rel="stylesheet" href="open.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="shortcut icon" type="x-icon" href="Shark.png">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#track">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div id="background">
+  </div>
+  <section class="hero">
+    <h1>Hi, I’m Shravani </h1>
+    <p>Frontend Developer | Web Enthusiast</p>
+    <button onclick="changeBg()">Click Me to change the colours . </button>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m learning full stack web development and love building interactive websites . Some thing I build befor but now this is the part of my internship , I like to create a websites and desktop with the my coding skills and using my konowlege , I am currntly pursuing my B tech engineering degree (final year) computer science engineering specially with a artificial intelligence and machine learning . And now I create this website for the completing my internship with a Data Tech Alpha pvt ltd . I an always learning about the websites and new technologies and art designing works . Here are some projects relete to the internship . </p>
+  </section>
+  <h2>Projects</h2>
+
+  <section id="track" class="projects">
+    <div class="pro" id="pro">
+      <h3>Project 1 </h3>
+      <p>A simple web design with a code that supports to the all functionality . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 1.</p>
+                    <p></p>
+                    <p><h1>Hello, I’m Shravani </h1>
+                          <p>Welcome to my first webpage! I am learning web development and this is my Day 1 project.</p>
+                    </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 2</h3>
+      <p>A second project is created the a html , and css magic with a beautiful design . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 2 . it is form you can submit it to me and connect with me . </p>
+                    <p><form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Name ~ " required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Email ~ "><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Password ~ " required><br><br>
+
+      <button type="submit">Submit</button>
+    </form></p>
+                    <p>submit here ~ </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 3</h3>
+      <p>A third page is related to the with a css animation and connect here . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 3 . hre are some designs . </p>
+                    <p><table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Subject</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Math</td>
+          <td>10 AM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Science</td>
+          <td>11 AM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>English</td>
+          <td>9 AM</td>
+        </tr>
+      </tbody>
+    </table></p>
+                    <p>simple timetable  ~ </p>
+      </div>
+     </div>
+    <div class="pro" id="pro">
+      <h3>Project 4</h3>
+      <p>A 4 project is created the a html and css with a simple works . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 4 . </p>
+                    <p><div class="box">
+            learn html 
+        </div>
+        <div class="box">
+            styles with css
+        </div>
+        <div class="box">
+            power of javascript
+        </div></p>
+                    <p>combination of the all 3 projects </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 5</h3>
+      <p>A 5 project is created the a html , and css magic with a beautiful design . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 5 . this is like a colour changing effects . and other</p>
+                    <p><h2>event ~ </h2>
+    <button id="colorBtn">Click to Change Color</button>
+    <h2>Register Form</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="enter your name ~ "><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="enter your email ~ "><br><br>
+
+      <button type="submit">Submit & Go</button>
+    </form>
+    <p id="message"></p>
+  </p>
+                    <p>changing colour effects ~ </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 6</h3>
+      <p>A 6 project is created the a html , and css magic with a javascript . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 6 . this a simple combination of the web designing . and quote generation with a js .  </p>
+                    <p><h1>Quote of the Moment</h1>
+    <div class="quote-box">
+      <p id="quote">Click the button to get inspired!</p>
+      <h3 id="author">The author is ~ </h3>
+    </div>
+    <button onclick="generateQuote()">New Quote</button></p>
+                    <p>Even more content to ensure it scrolls.</p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 7</h3>
+      <p>A 7 project is related to connection with a git to my projects </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 7 . all commands that require to connection with a git and folder project . </p>
+                    <p>1] git init
+2] git add .
+3] git commit -m "Initial portfolio website"
+4] git branch -M main
+5] git remote add origin https://github.com/Sh24-kesha/ukol
+6] git push -u origin main</p>
+                    <p>git commands ~ </p>
+      </div>
+      </div>
+    <div class="pro" id="pro">
+      <h3>Project 8</h3>
+      <p>A 8 project is created the a html , and css magic with javascript . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 8 .</p>
+                    <p>Now you are in the 8 th project </p>
+                    <p>Thank you for coming here . </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 9</h3>
+      <p>A 9 project is created with a simple backend works and all . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 9 . complete backend with a express js </p>
+                    <p>const express = require("express");
+const app = express();
+
+const users = [
+  { id: 1, name: "Shravani", email: "shravi@example.com" },
+  { id: 2, name: "Amit", email: "amit@example.com" },
+  { id: 3, name: "Priya", email: "priya@example.com" }
+];
+
+app.get("/", (req, res) => {
+  res.send("Hello, Backend World ");
+});
+
+app.get("/users", (req, res) => {
+  res.json(users);
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
+</p>
+                    <p>use it  ~ </p>
+      </div>
+    </div>
+    <div class="pro" id="pro">
+      <h3>Project 10</h3>
+      <p>A 10 project is created the active website you may click this  . </p>
+      <button class="read-more" onclick="toggleExpand(this)">Read More</button>
+      <div class="more">
+                    <p>Extra details about idea 10 . this all about my next website that is support to the all environment . </p>
+                    <p></p>
+                    <p>Thank you for visiting here , come again . and stay with me ~ lots of thanks and pleasure ! </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact With Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="sub">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&reg; 2025 Shravani | Built with love</p>
+  </footer>
+
+  <script src="open.js"></script>
+</body>
+</html>
